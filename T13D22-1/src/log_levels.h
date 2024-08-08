@@ -1,13 +1,7 @@
-#ifndef LOG_LEVELS
-#define LOG_LEVELS
+// log_levels.h
+#ifndef LOG_LEVELS_H
+#define LOG_LEVELS_H
 
-enum log_level
-{
-    debug,
-    trace,
-    info,
-    warning,
-    error
-}
+enum log_level { DEBUG, TRACE, INFO, WARNING, ERROR };
 
-#endif
+#endif  // LOG_LEVELS_H
