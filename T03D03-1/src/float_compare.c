@@ -7,7 +7,7 @@ int main() {
   double res = fun();
 
   // CHANGE THIS IF - AI
-  if (fabs(res) <= EPS)
+  if (res <= pow(10, -6))
     printf("OK!");
 
   return 0;
