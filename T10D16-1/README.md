@@ -1,4 +1,4 @@
-# T10D16
+#T10D16
 The Russian version of the task can be found in the repository.
 
 You can find some useful video materials in the "Projects (Media)" section on the Platform.
@@ -22,10 +22,9 @@ You can find some useful video materials in the "Projects (Media)" section on th
  3.6. [Quest 6. Strstr.](#quest-6-strstr) \
  3.7. [Quest 7. Strtok.](#quest-7-strtok) \
  3.8. [Quest 8*. Width.](#bonus-quest-8-width) 
-4. [Chapter IV](#chapter-iv) 
+4. [Chapter IV](#chapter-iv)
 
-
-# Chapter I
+#Chapter I
 
 ## Level 3. Room 2.
 
@@ -78,8 +77,7 @@ It looks a lot like a man printout. Even the font is the same as in the terminal
 
 ***LOADING...***
 
-
-# Chapter II
+#Chapter II
 
 ## List 1.
 
@@ -93,7 +91,7 @@ It looks a lot like a man printout. Even the font is the same as in the terminal
     NAME 
        string.h — string operations
     SYNOPSIS
-       #include <string.h>
+#include <string.h>
     DESCRIPTION
        Some of the functionality described on this reference page extends
        the ISO C standard. Applications shall define the appropriate feature
@@ -112,14 +110,14 @@ It looks a lot like a man printout. Even the font is the same as in the terminal
        standard compilers.
 
             Chapter 1 - size_t   strlen(const char *);
-            Chapter 2 - int      strcmp(const char *, const char *);
-            Chapter 3 - char    *strcpy(char *restrict, const char *restrict);
-            Chapter 4 - char    *strcat(char *restrict, const char *restrict);
-            Chapter 5 - char    *strchr(const char *, int);
-            Chapter 6 - char    *strstr(const char *, const char *);
-            Chapter 7 - size_t   strnlen(const char *, size_t);
-            Chapter 8 - int      strncmp(const char *, const char *, size_t);
-          
+Chapter 2 - int strcmp(const char *, const char *);
+Chapter 3 - char *strcpy(char *restrict, const char *restrict);
+Chapter 4 - char *strcat(char *restrict, const char *restrict);
+Chapter 5 - char *strchr(const char *, int);
+Chapter 6 - char *strstr(const char *, const char *);
+Chapter 7 - size_t strnlen(const char *, size_t);
+Chapter 8 - int strncmp(const char *, const char *, size_t);
+
             ...
 
        Inclusion of the <string.h> header may also make visible all symbols
@@ -147,8 +145,7 @@ You come up to the computer and notice another open book next to it. Somehow you
 
 ***LOADING...***
 
-
-# Chapter III
+#Chapter III
 
 ## Quest 1. Strlen.
 
@@ -339,8 +336,7 @@ Oh, for god's sake. Looks like I have to add this function to the library as wel
 
 ***LOADING...***
 
-
-# Chapter IV
+#Chapter IV
 
 \> *Type in "So I can leave now?"*
 
@@ -358,4 +354,3 @@ Oh, for god's sake. Looks like I have to add this function to the library as wel
 You hear a click and the door is wide open, as if it has a spring. It's time to go! 
 
 ***LOADING...***
-

@@ -4,12 +4,14 @@ BUILD_DIR = ../build
 
 .PHONY: all clean rebuild
 
-all: strtok_tests strlen_tests strstr_tests strchr_tests strcat_tests strcpy_tests strcmp_tests
+all: strtok_tests strlen_tests strstr_tests strchr_tests strcat_tests strcpy_tests strcmp_tests text_processor
 
 # Test targets
 s21_string.o: s21_string.c
 	$(CC) -c s21_string.c -o s21_string.o
 
+text_processor: s21_string.o text_processor.c
+	gcc $(FLAGS) s21_string.o text_processor.c -o $(BUILD_DIR)/Quest_8
 
 strtok_tests: s21_string.o s21_string_test.c 
 	$(CC) -D Quest_7 s21_string.o s21_string_test.c -o $(BUILD_DIR)/Quest_7

@@ -10,7 +10,7 @@ void s21_strcpy_test();
 void s21_strcat(char* destination, const char* source);
 void s21_strcat_test();
 char* s21_strchr(const char* source, int chCode);
-void s21_strchr_test();
+void s21_strchr_test(const char* str, char ch);
 char* s21_strstr(const char* haystack, const char* need);
 void s21_strstr_test();
 char* s21_strtok(char* str, const char* delim);

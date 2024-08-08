@@ -1,4 +1,5 @@
 #include "s21_string.h"
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -65,12 +66,12 @@ char* s21_strstr(const char* haystack, const char* need) {
 }
 
 int* create_delim_dict(const char* delim) {
-    int* d = (int*)malloc(256 * sizeof(int)); // Allocate for all ASCII characters
+    int* d = (int*)malloc(256 * sizeof(int));  // Allocate for all ASCII characters
     for (int i = 0; i < 256; i++) {
-        d[i] = 0; // Initialize to 0
+        d[i] = 0;  // Initialize to 0
     }
     for (int i = 0; delim[i] != '\0'; i++) {
-        d[(unsigned char)delim[i]] = 1; // Mark delimiters
+        d[(unsigned char)delim[i]] = 1;  // Mark delimiters
     }
     return d;
 }
